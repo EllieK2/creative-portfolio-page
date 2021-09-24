@@ -1,3 +1,8 @@
+:root {
+    --pale: rgb(210, 238, 238);
+}
+
+
 /* universal selector */ 
 * {
    box-sizing: border-box; 
@@ -7,5 +12,8 @@ html, body {
 margin: 0;
 min-height: fit-content;
 font-family: cursive;
+line-height: 1.2;
+color: rgb(48, 48, 97);
+background-color: var(--pale);
 border: 2px solid rgb(128, 128, 241);
 }
