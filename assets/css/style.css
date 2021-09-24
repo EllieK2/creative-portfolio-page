@@ -26,3 +26,13 @@ border: 2px solid rgb(128, 128, 241);
     justify-content: space-between;
 
 }
+.box-container {
+    display: flex;
+    flex:2; 
+    border:1px solid cornflowerblue; 
+
+}
+.logo-container {
+    resize: 2px;
+    align-items: flex-end;
+}
