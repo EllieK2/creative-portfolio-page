@@ -11,6 +11,7 @@
 html, body {
 margin: 0;
 min-height: fit-content;
+max-width:none;   
 font-family: cursive;
 line-height: 1.2;
 color: rgb(48, 48, 97);
@@ -32,7 +33,17 @@ border: 2px solid rgb(128, 128, 241);
     border:1px solid cornflowerblue; 
 
 }
-.logo-container {
-    resize: 2px;
-    align-items: flex-end;
+.logo-box {
+    margin: 1.6rem;
+}
+
+.pink-heart-image {
+width: 130px;
+height: 130px;
+    
+}
+
+.main-section {
+    float: inline-end;
+
 }
