@@ -39,9 +39,10 @@ border: 2px solid rgb(128, 128, 241);
 
 .pink-heart-image {
 width: 130px;
-height: 130px;
-    
+height: 130px; 
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 
 .main-section {
     float: inline-end;
