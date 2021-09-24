@@ -6,5 +6,6 @@
 html, body {
 margin: 0;
 min-height: fit-content;
+font-family: cursive;
 border: 2px solid rgb(128, 128, 241);
 }
