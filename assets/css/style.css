@@ -1,0 +1,10 @@
+/* universal selector */ 
+* {
+   box-sizing: border-box; 
+}
+
+html, body {
+margin: 0;
+min-height: fit-content;
+border: 2px solid rgb(128, 128, 241);
+}
