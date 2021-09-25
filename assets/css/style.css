@@ -84,26 +84,20 @@ transform: rotate(25deg);
     height: 15px;
 
 }
-.project1 {
+/* portfolio image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+
+  .row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.project-container {
-    border: 1px solid; 
-    width:fit-content;
-    margin:max-content;
-    position: relative;
-}
-.project-box {
-    width: 10%;
-    height: 10%;
-    object-fit: contain;
-}
-.project-box {
-    animation: grow 0.5s ease-out;
-    cursor: pointer;
-    transform: scale(1.4);
-    z-index: 2;
-}
+  }
+  
+  /* Created equal columns that lie next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
