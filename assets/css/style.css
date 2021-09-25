@@ -43,6 +43,17 @@ height: 130px;
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+/* main image on the page */ 
+.champion-image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap; 
+}
+
+.content {
+    width: 100%;
+    height:min-content;
+}
 
 .main-section {
     float: inline-end;
