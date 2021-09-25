@@ -101,6 +101,19 @@ transform: rotate(25deg);
     height: 100%; 
     object-fit:contain; 
 }
+.column1:hover {
+    animation: grow 0.5s ease-out;
+    cursor:pointer;
+    transform: scale(2);
+}
 .row {
     display: flex;  
     }
+
+@keyframe grow {
+    0% {
+transform: scale(1);
+    }
+    100% {
+transform: scale (2);   
+}
