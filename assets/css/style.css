@@ -38,10 +38,20 @@ border: 2px solid rgb(128, 128, 241);
 }
 
 .pink-heart-image {
-width: 130px;
-height: 130px; 
+width: 80px;
+height: 80px; 
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+object-position: right top;
+border: 1px solid rgb(86, 86, 204);
+border-radius: 50%;
+-webkit-transform: rotate(25 deg);
+-moz-transform: rotate(25deg);
+-ms-transform: rotate(25deg);
+-o-transform: rotate(25deg);
+transform: rotate(25deg);
 }
+
+
 
 /* main image on the page */ 
 .champion-image-container {
@@ -64,18 +74,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     justify-content: space-evenly;
 
 }
-/* button styling and insert of little logos */ 
-.github {
-    width: 15px;
-    height: 15px;
-}
+/* button styling with the little logos */ 
 
-.email {
-    width: 15px;
-    height: 15px;
-
-}
-.linkedin {
+.email, .github, .linkedin {
     width: 15px;
     height: 15px;
 
