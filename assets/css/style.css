@@ -55,7 +55,12 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     height:min-content;
 }
 
-.main-section {
-    float: inline-end;
+.project-space {
+    display: block;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    justify-content: space-evenly;
 
 }
