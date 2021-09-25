@@ -7,7 +7,7 @@ A path to the Advanced CSS
 *create an employee porfolio that lists the previous work
 * use the name, recent photo, links to sections about them, their work and how to contact them 
 * links in navigation correspond to sections 
-* link about their work leads tto titled images of the developer application 
+* link about their work leads to titled images of the developer application 
 * samples of developer projects should get larger when clicked on 
 * image of the application should lead to that specific application 
 * page should be mobile, tablet, browser size ready 
