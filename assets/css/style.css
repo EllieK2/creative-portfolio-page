@@ -88,6 +88,13 @@ transform: rotate(25deg);
     float: left;
     width: 50%;
     padding: 5px;
+    margin: 2rem;
+  }
+  .column1-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: center;
   }
 
 .row {
