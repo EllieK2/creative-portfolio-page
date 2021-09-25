@@ -64,3 +64,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     justify-content: space-evenly;
 
 }
+.github-button {
+    width: 15px;
+    height: 15px;
+    
+}
