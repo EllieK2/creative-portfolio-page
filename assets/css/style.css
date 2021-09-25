@@ -51,8 +51,6 @@ border-radius: 50%;
 transform: rotate(25deg);
 }
 
-
-
 /* main image on the page */ 
 .champion-image-container {
     display: flex;
@@ -91,13 +89,18 @@ transform: rotate(25deg);
     padding: 5px;
   }
   
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
 
   .row {
     display: flex;
   }
   
   /* Created equal columns that lie next to each other */
-  .column {
+  .column1 {
     flex: 33.33%;
     padding: 5px;
   }
