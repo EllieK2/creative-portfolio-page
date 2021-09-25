@@ -58,6 +58,10 @@ transform: rotate(25deg);
     display: flex;
     flex-direction: column;
     flex-wrap:nowrap; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 }
 
 .content {
