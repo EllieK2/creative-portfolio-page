@@ -84,23 +84,12 @@ transform: rotate(25deg);
 }
 /* portfolio image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-  
-  .column2 {
+    border: 0.1rem solid rgb(110, 110, 211); 
     float: left;
     width: 50%;
     padding: 5px;
   }
 
-  .row {
-    display: flex;
-  }
-  
-  /* Created equal columns that lie next to each other */
-  .column1 {
-    flex: 33.33%;
-    padding: 5px;
-  }
+.row {
+    display: flex;  
+    }
