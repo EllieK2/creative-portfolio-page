@@ -39,7 +39,7 @@ border: 2px solid rgb(128, 128, 241);
 .logo-box:hover {
     background-color: rgb(175, 41, 153);
 }
-
+/* little heart shaped logo with the animation */ 
 .pink-heart-image {
 width: 80px;
 height: 80px; 
@@ -108,6 +108,7 @@ transform: rotate(25deg);
     cursor:pointer;
     transform: scale(2);
 }
+
 .row {
     display: flex;  
     }
