@@ -36,6 +36,9 @@ border: 2px solid rgb(128, 128, 241);
 .logo-box {
     margin: 1.6rem;
 }
+.logo-box:hover {
+    background-color: rgb(175, 41, 153);
+}
 
 .pink-heart-image {
 width: 80px;
@@ -76,13 +79,12 @@ transform: rotate(25deg);
 
 }
 /* button styling with the little logos */ 
-
 .email, .github, .linkedin {
     width: 15px;
     height: 15px;
 
 }
-/* portfolio image containers (use 25% for four, and 50% for two, etc) */
+/* portfolio image containers */
 .column1 {
     border: 0.1rem solid rgb(110, 110, 211); 
     float: left;
@@ -115,5 +117,16 @@ transform: rotate(25deg);
 transform: scale(1);
     }
     100% {
-transform: scale (2);   
-}
+transform: scale (2); }
+
+
+@media  and (max-width: 576px) {
+  .header {
+      height: auto;
+      z-index: 2; 
+  }
+
+  .column1 {
+      margin-top:354px;
+
+  }
