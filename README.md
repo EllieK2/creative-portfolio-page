@@ -17,4 +17,11 @@ A path to the Advanced CSS
 * recommended file structure 
 * multiple descriptive commit messages
 
+link to the deployed application: 
+https://github.com/EllieK2/creative-portfolio-page/settings/pages
+
+
+screenshot of the application 
+
+
 
