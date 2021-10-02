@@ -22,6 +22,7 @@ https://github.com/EllieK2/creative-portfolio-page/settings/pages
 
 
 screenshot of the application 
+![alt text](images/designes/projectScreenshots.png "Elizabeth's Portfolio Screenshot")
 
 
 
