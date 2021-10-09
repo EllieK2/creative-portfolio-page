@@ -30,6 +30,7 @@ border: 2px solid rgb(128, 128, 241);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 8px;
 }
 
 .box-container {
@@ -59,6 +60,21 @@ border-radius: 50%;
 -ms-transform: rotate(25deg);
 -o-transform: rotate(25deg);
 transform: rotate(25deg);
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(42, 61, 114);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(16, 54, 88);
+  color: white;
 }
 
 /* main image on the page */ 
