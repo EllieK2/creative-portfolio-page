@@ -1,0 +1,159 @@
+:root {
+    --pale: rgb(210, 238, 238);
+}
+
+/* universal selector */ 
+* {
+   box-sizing: border-box; 
+}
+
+html, body {
+margin: 0;
+min-height: fit-content;
+max-width:none;   
+font-family: cursive;
+line-height: 1.2;
+color: rgb(48, 48, 97);
+font-size: 10px;
+background-color: var(--pale);
+border: 2px solid rgb(128, 128, 241);
+}
+
+.main-section {
+    font-family: cursive;
+    font-size: 20px;
+    text-orientation: sideways-right;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.box-container {
+    display: flex;
+    flex:2; 
+    border:1px solid cornflowerblue; 
+}
+
+.logo-box {
+    margin: 1.6rem;
+}
+
+.logo-box:hover {
+    background-color: rgb(175, 41, 153);
+}
+
+/* little heart shaped logo with the animation */ 
+.pink-heart-image {
+width: 80px;
+height: 80px; 
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+object-position: right top;
+border: 1px solid rgb(86, 86, 204);
+border-radius: 50%;
+-webkit-transform: rotate(25 deg);
+-moz-transform: rotate(25deg);
+-ms-transform: rotate(25deg);
+-o-transform: rotate(25deg);
+transform: rotate(25deg);
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(42, 61, 114);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(16, 54, 88);
+  color: white;
+}
+
+/* main image on the page */ 
+.champion-image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    height:min-content;
+}
+
+.project-space {
+    display: block;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+/* button styling with the little logos */ 
+.email, .github, .linkedin {
+    width: 15px;
+    height: 15px;
+}
+
+/* portfolio image containers */
+.column1 {
+    border: 0.1rem solid rgb(110, 110, 211); 
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 2rem;
+}
+
+.column1-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: center;
+}
+
+.column1 img {
+    width: fixed;
+    height: 120px; 
+    object-fit:contain; 
+}
+
+.column1:hover {
+    animation: grow 0.5s ease-out;
+    cursor:pointer;
+    transform: scaleX(2);
+}
+
+.row {
+    display: flex; 
+}  
+
+@keyframe grow {
+    0% {
+transform: scale(1);
+    }
+    100% {
+transform: scale (2); 
+}
+
+@media  and (max-width: 576px) {
+  .header {
+      height: auto;
+      z-index: 2; 
+  }
+}
+
+  .column1 {
+      margin-top:354px;
+}
